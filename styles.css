@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #001f5b;
+    padding: 15px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner {
+    background-color: #003087;
+    color: white;
+    padding: 50px 0;
+}
+
+.offerte {
+    padding: 20px;
+}
+
+.offerta-slider {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.offerta {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+footer {
+    background-color: #001f5b;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
